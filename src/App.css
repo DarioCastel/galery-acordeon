@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.acordeon{
+  max-width: 1140px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.acordeon span{
+  flex: 1;
+  min-height: 450px;
+  margin-inline: 10px;
+  transition: all .5s ease;
+}
+.acordeon span:hover{
+  flex: 3;
+  cursor: pointer;
+}
+
+.acordeon .img:nth-child(1){
+  background-image: url(./img/draven.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 77% center;
+  transform: scaleX(1);
+}
+.acordeon .img:nth-child(2){
+  background-image: url(./img/jhin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 56% center;
+}
+.acordeon .img:nth-child(3){
+  background-image: url(./img/teemo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 77% center;
+}
+.acordeon .img:nth-child(4){
+  background-image: url(./img/velkoz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55% center;
+}
+.acordeon .img:nth-child(5){
+  background-image: url(./img/zed.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 77% center;
+}
+
